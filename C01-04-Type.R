@@ -1,14 +1,15 @@
-# 자료형
-# 숫자형(Numeric) : 123, 3.14
+# [자료형]
+# 숫자형(Numeric)   : 123, 3.14
 # 문자형(Character) : "ABC", "한글"
-# 논리형(Logical) : TRUE(T), FALSE(F)
-# 결측치 : NA(Not Available), NaN(Not a Number)
-# 무한값 : Inf, -Inf
-# 정의되지 않은 값 : NULL
-# 관련함수 : class(), mode(), typeof()
+# 논리형(Logical)   : TREU(T), FALSE(F)
+# 결측치()          : NA(Not Available), NaN(Not a Number)
+# 무한값            : Inf, -Inf
+# 정의되지 않은 값  : NULL
+# 관련함수          : class(), mode(), typeof()
 
 # 초깃값을 지정하지 않고 변수만 선언할 수 없다.
-# 초깃값을 지정해야 한다.
+# 반드시 초깃값을 지정해야 한다. 
+# Error: object 'v1' not found
 # v1
 
 # 현재 사용중인 변수 객체 목록 보기
@@ -41,4 +42,4 @@ tf
 string <- "홍길동"
 string
 
-
+abx

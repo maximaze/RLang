@@ -9,7 +9,6 @@ hist(Nile)
 hist(Nile, freq=T)
 hist(Nile, freq=TRUE)
 
-
 # 히스토그램 : 밀도(density) 기준
 hist(Nile, freq=F)
 hist(Nile, freq=FALSE)
@@ -18,8 +17,7 @@ hist(Nile, freq=FALSE)
 lines(density(Nile))
 
 # 히스토그램 파일 저장하기
-par(mfrow = c(1,1)) #
-pdf("d:/RLang/outputs/batch.pdf")
+par(mfrow=c(1,1))
+pdf("D:/Workspace/RLang/outputs/batch.pdf")
 hist(rnorm(20))
 dev.off()
-
