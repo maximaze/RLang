@@ -1,0 +1,6 @@
+ Named num [1:10] 11605 374 10119 17 1135 ...
+ - attr(*, "names")= chr [1:10] "Bugs.BR" "Bugs.AR" "NT.Bugs.BR" "NT.Bugs.AR" ...
+      Bugs.BR       Bugs.AR    NT.Bugs.BR    NT.Bugs.AR      Major.BR      Major.AR 
+        11605           374         10119            17          1135            35 
+  Critical.BR   Critical.AR H.Priority.BR H.Priority.AR 
+          432            10           459             3 
